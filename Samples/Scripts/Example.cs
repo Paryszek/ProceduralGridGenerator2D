@@ -86,7 +86,7 @@ public class Example : MonoBehaviour
         generator = new ProceduralGridGeneratorCellularAutomata(roomWidth, roomHeight, 1, 0.45f);
         break;
       case ProceduralGridGenerator2DType.AGENTS:
-        generator = new ProceduralGridGeneratorAgents(roomWidth, roomHeight, 40);
+        generator = new ProceduralGridGeneratorAgents(this.roomWidth, this.roomHeight, 1, 0.5f, 0.35f, 0, 0, true, true, AgentSpawnType.AGENT_POS);
         break;
     }
   }

@@ -1,6 +1,6 @@
 {
   "name": "com.mparysz.procedural-grid-generator-2d",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "displayName": "Procedural Grid Generator 2D",
   "description": "Tool that helps procedurally generate grids in 2D using different methods",
   "unity": "2019.1",

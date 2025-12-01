@@ -85,7 +85,7 @@ namespace MParysz.ProceduralGridGenerator2D
       bool addBorder = true,
       bool removeSingleFillSquares = false,
       AgentSpawnType agentSpawnType = AgentSpawnType.RANDOM_POS
-    ) : base(roomHeight, roomWidth)
+    ) : base(roomWidth, roomHeight)
     {
       _maxAgents = maxAgents;
       _addBorder = addBorder;
